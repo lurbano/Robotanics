@@ -5,3 +5,7 @@ create virtual environment
 install plantcv 
 > pip install plantcv
 
+
+Testing: test.py
+https://plantcv.org/tutorials/simple-rgb-workflow
+ 

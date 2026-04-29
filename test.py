@@ -27,3 +27,8 @@ pcv.params.text_thickness = 20
 
 img, path, filename = pcv.readimage(filename=args.test1)
 
+# Inputs:
+#   rgb_img - RGB image
+#   channel - colorspace channel selection (l, a, or b in this case)
+
+b_img = pcv.rgb2gray_lab(rgb_img=crop_img, channel='b')
